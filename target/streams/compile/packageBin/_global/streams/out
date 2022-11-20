@@ -1,0 +1,25 @@
+[debug] Packaging C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\mundialrandom_2.13-0.1.0-SNAPSHOT.jar ...
+[debug] Input file mappings:
+[debug] 	sampo
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo
+[debug] 	sampo\mundialito
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo\mundialito
+[debug] 	sampo\mundialito\Acciones.class
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo\mundialito\Acciones.class
+[debug] 	sampo\mundialito\Entrypoint$.class
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo\mundialito\Entrypoint$.class
+[debug] 	sampo\mundialito\Entrypoint$delayedInit$body.class
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo\mundialito\Entrypoint$delayedInit$body.class
+[debug] 	sampo\mundialito\Entrypoint.class
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo\mundialito\Entrypoint.class
+[debug] 	sampo\mundialito\Equipo$.class
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo\mundialito\Equipo$.class
+[debug] 	sampo\mundialito\Equipo.class
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo\mundialito\Equipo.class
+[debug] 	sampo\mundialito\equipos.class
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo\mundialito\equipos.class
+[debug] 	sampo\mundialito\Grupo.class
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo\mundialito\Grupo.class
+[debug] 	sampo\mundialito\Mundial.class
+[debug] 	  C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes\sampo\mundialito\Mundial.class
+[debug] Done packaging.

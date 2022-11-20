@@ -1,0 +1,9 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 6 Scala sources to C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.12\classes ...
+[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.0. Compiling...
+[info] Attempting to fetch org.scala-sbt:compiler-bridge_2.12:1.8.0.
+[error] (Compile / compileIncremental) Error compiling the sbt component 'compiler-bridge_2.12'
+[error] Total time: 5 s, completed 20/11/2022 01:56:03
+[debug] > Exec(idea-shell, None, None)

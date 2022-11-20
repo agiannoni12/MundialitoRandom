@@ -1,0 +1,56 @@
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 6 Scala sources to C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-3.1.3\classes ...
+[error] -- Error: C:\Users\agust\Desktop\ScalaWorks\MundialRandom\src\main\scala\sampo\mundialito\Acciones.scala:19:62 
+[error] 19 |    grupo.partidos = combinatoria(grupo.equipos, Array(Array()))
+[error]    |                                                              ^
+[error]    |                                          No ClassTag available for T
+[error]    |
+[error]    |                                          where:    T is a type variable
+[error] -- [E134] Type Error: C:\Users\agust\Desktop\ScalaWorks\MundialRandom\src\main\scala\sampo\mundialito\Acciones.scala:24:4 
+[error] 24 |    println(equipo1.idunico, equipo2.idunico)
+[error]    |    ^^^^^^^
+[error]    |None of the overloaded alternatives of method println in object Predef with types
+[error]    | (x: Any): Unit
+[error]    | (): Unit
+[error]    |match arguments ((equipo1.idunico : Int), (equipo2.idunico : Int))
+[error] -- [E134] Type Error: C:\Users\agust\Desktop\ScalaWorks\MundialRandom\src\main\scala\sampo\mundialito\Entrypoint.scala:7:110 
+[error] 7 |    mundial.grupos.toSeq.sortBy(_._1).map(gr=>println(gr._1) -> gr._2.equipos.sortBy(_.puntos).reverse.map(e=>println(e.nombre,"puntos: ",e.puntos,"goles: ",e.goles)))
+[error]   |                                                                                                              ^^^^^^^
+[error]   |None of the overloaded alternatives of method println in object Predef with types
+[error]   | (x: Any): Unit
+[error]   | (): Unit
+[error]   |match arguments ((e.nombre : String), ("puntos: " : String), (e.puntos : Int), ("goles: " : String), (e.goles : Int))
+[error] -- Error: C:\Users\agust\Desktop\ScalaWorks\MundialRandom\src\main\scala\sampo\mundialito\Entrypoint.scala:7:166 
+[error] 7 |    mundial.grupos.toSeq.sortBy(_._1).map(gr=>println(gr._1) -> gr._2.equipos.sortBy(_.puntos).reverse.map(e=>println(e.nombre,"puntos: ",e.puntos,"goles: ",e.goles)))
+[error]   |                                                                                                                                                                      ^
+[error]   |                                            No ClassTag available for B
+[error]   |
+[error]   |                                            where:    B is a type variable
+[error] -- Error: C:\Users\agust\Desktop\ScalaWorks\MundialRandom\src\main\scala\sampo\mundialito\Grupo.scala:15:52 
+[error] 15 |  var partidos: Array[Array[Equipo]] = Array(Array())
+[error]    |                                                    ^
+[error]    |                                          No ClassTag available for T
+[error]    |
+[error]    |                                          where:    T is a type variable
+[error] -- [E134] Type Error: C:\Users\agust\Desktop\ScalaWorks\MundialRandom\src\main\scala\sampo\mundialito\equipos.scala:92:44 
+[error] 92 |    val ganadores  =  mundial.crucescuartos.flatMap(cr => cr._2.grouped(2).toArray.map(jugarPartidoEliminacion(_)))
+[error]    |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |None of the overloaded alternatives of method flatMap in trait StrictOptimizedIterableOps with types
+[error]    | [B]
+[error]    |  (f: ((String, Array[sampo.mundialito.Equipo])) => IterableOnce[B]): 
+[error]    |    scala.collection.mutable.Iterable[B]
+[error]    | [K2, V2]
+[error]    |  (f: ((String, Array[sampo.mundialito.Equipo])) => IterableOnce[(K2, V2)]): 
+[error]    |    scala.collection.mutable.HashMap[K2, V2]
+[error]    |match arguments (((String, Array[sampo.mundialito.Equipo])) => Array[sampo.mundialito.Equipo])
+[warn] -- Warning: C:\Users\agust\Desktop\ScalaWorks\MundialRandom\src\main\scala\sampo\mundialito\equipos.scala:72:0 
+[warn] 72 |def armaroctavos():Unit= {
+[warn]    |^
+[warn]    |Line is indented too far to the left, or a `}` is missing
+[warn] one warning found
+[error] 6 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 5 s, completed 20/11/2022 02:41:36
+[debug] > Exec(idea-shell, None, None)

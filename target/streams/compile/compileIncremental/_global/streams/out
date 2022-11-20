@@ -1,0 +1,41 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 9 products, 6 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/sampo/mundialito/Acciones.scala, ${BASE}/src/main/scala/sampo/mundialito/Mundial.scala, ${BASE}/src/main/scala/sampo/mundialito/equipos.scala, ${BASE}/src/main/scala/sampo/mundialito/Equipo.scala, ${BASE}/src/main/scala/sampo/mundialito/Entrypoint.scala, ${BASE}/src/main/scala/sampo/mundialito/Grupo.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/sampo/mundialito/equipos.scala, ${BASE}/src/main/scala/sampo/mundialito/Acciones.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/sampo/mundialito/equipos.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/sampo/mundialito/equipos.scala, ${BASE}/src/main/scala/sampo/mundialito/Acciones.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/sampo/mundialito/equipos.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(sampo.mundialito.equipos, sampo.mundialito.Acciones)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/sampo/mundialito/equipos.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(sampo.mundialito.equipos, sampo.mundialito.Acciones)
+[debug] All initially invalidated sources:Set(${BASE}/src/main/scala/sampo/mundialito/equipos.scala, ${BASE}/src/main/scala/sampo/mundialito/Acciones.scala)
+[debug] Initial set of included nodes: sampo.mundialito.equipos, sampo.mundialito.Acciones
+[debug] Including sampo.mundialito.Entrypoint by sampo.mundialito.equipos
+[debug] Including sampo.mundialito.Mundial by sampo.mundialito.Acciones
+[debug] Including sampo.mundialito.Grupo by sampo.mundialito.Acciones
+[debug] compilation cycle 1
+[info] compiling 2 Scala sources to C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.5.7:compile for Scala 2.13.10
+[debug] [zinc] Running cached compiler 663e8c80 for Scala compiler version 2.13.10
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files\OpenJDK\openjdk-8u322-b06\jre\lib\resources.jar;C:\Program Files\OpenJDK\openjdk-8u322-b06\jre\lib\rt.jar;C:\Program Files\OpenJDK\openjdk-8u322-b06\jre\lib\sunrsasign.jar;C:\Program Files\OpenJDK\openjdk-8u322-b06\jre\lib\jsse.jar;C:\Program Files\OpenJDK\openjdk-8u322-b06\jre\lib\jce.jar;C:\Program Files\OpenJDK\openjdk-8u322-b06\jre\lib\charsets.jar;C:\Program Files\OpenJDK\openjdk-8u322-b06\jre\lib\jfr.jar;C:\Program Files\OpenJDK\openjdk-8u322-b06\jre\classes;C:\Users\agust\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.10\scala-library-2.13.10.jar
+[debug] 	-classpath
+[debug] 	C:\Users\agust\Desktop\ScalaWorks\MundialRandom\target\scala-2.13\classes
+[debug] New invalidations:
+[debug] Initial set of included nodes: 
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] Final step, transitive dependencies:
+[debug] 	Set()
+[debug] No classes were invalidated.
+[debug] Scala compilation took 0.6973236 s
+[info] done compiling
